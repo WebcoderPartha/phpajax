@@ -37,11 +37,47 @@ $('#name').keyup(function (){
 
 
 
-})
+});
 
     $(document).on('click', 'li', function (){
         $('#name').val($(this).text());
         $('#textstatus').fadeOut();
+    });
+
+    // $(document).onclick('click', 'li', function (){
+    //     $('#name').val($(this).text());
+    //     $('#textstatus').fadeOut();
+    // })
+
+
+    // Password
+    $('#btnPassword').on('click',function (){
+        var password = $('#password');
+        var fieldtype = password.attr('type');
+
+        if (fieldtype == 'password'){
+            $('#password').attr('type', 'text');
+            $(this).text('Hide Password');
+        }else{
+            $('#password').attr('type', 'password');
+            $(this).text('Show Password');
+        }
+
     })
+    // $('#btnPassword').on('click',function (){
+    //     var password = $('#password');
+    //     var fieldtype = password.attr('type');
+    //
+    //     if (fieldtype == 'password'){
+    //         password.attr('type', 'text');
+    //         $(this).text('Hide Password');
+    //     }else{
+    //         password.attr('type', 'password');
+    //         $(this).text('Show Password');
+    //     }
+    //
+    // })
+
+
 
 });
