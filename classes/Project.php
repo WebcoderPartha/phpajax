@@ -8,34 +8,41 @@ class Project{
 		$this->db = new Database();
 	}
 
-
-	public function checkUserName($username){
+    public function checkUsername($username){
 	    $query = "SELECT * FROM users WHERE username = '$username'";
 
 	    $getUser = $this->db->select($query);
 
 	    if ($username == ''){
-	        echo '<span class="error">Username must not be empty.</span>';
+	        echo "<span style='color:red'>Please enter username</span>";
+	        exit();
         }elseif($getUser){
-            echo "<span class='error'><b>$username is not available!</b></span>";
+            echo "<span style='color:red'><b>$username</b> already exists</span>";
+            exit();
         }else{
-            echo "<span class='success'><b>$username is available!</b></span>";
+            echo "<span style='color:green'><b>$username</b> available</span>";
+            exit();
         }
 
+    }
 
-	}
+    public function checkName($name){
 
-	public function checkName($name){
-	    $query = "SELECT * FROM details WHERE name = '$name'";
+	    $query = "SELECT * FROM details WHERE name LIKE '%$name%'";
 	    $getName = $this->db->select($query);
 
-	    if ($name == ''){
-	        echo "<span class='error'>Enter your name</span>";
-        }elseif ($getName){
-            echo "<span class='error'>$name not available!</span>";
+	    $result = "";
+	    $result .= "<div class='nameClass'><ul>";
+	    if ($getName){
+	        while($data = $getName->fetch_assoc()){
+	            $result .= "<li>".$data['name']."</li>";
+            }
         }else{
-            echo "<span class='success'>$name available!</span>";
+            $result .= "<li>No data found!</li>";
         }
+        $result .= "</ul></div>";
+	    echo $result;
+
     }
 
 	

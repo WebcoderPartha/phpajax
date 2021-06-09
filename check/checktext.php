@@ -4,9 +4,9 @@ include_once ($filepath.'/../classes/Project.php');
 
 $pro = new Project();
 
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
-    $username = $_POST['username'];
-    $user = $pro->checkUsername($username);
+    $name = $_POST['name'];
+
+    $checkname = $pro->checkName($name);
 }
