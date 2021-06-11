@@ -5,7 +5,8 @@ include_once ($filepath.'/../classes/Project.php');
 $pro = new Project();
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+    $keyword = $_POST['name'];
 
-    $checkname = $pro->loadContent();
+    $SearchKeyword = $pro->searchKeyword($keyword);
 
 }

@@ -20,9 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a252d37-0603-4c69-9002-e2b0d1d588d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/autocontent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autosave.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/autorefresh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/autosave.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/checksearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/loadcontent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check/checktext.php" beforeDir="false" afterPath="$PROJECT_DIR$/check/checktext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/user.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/check" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,6 +61,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampnew\htdocs\ajax\check" />
+      <recent name="C:\xampnew\htdocs\ajax" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +79,8 @@
       <workItem from="1620372754963" duration="2358000" />
       <workItem from="1620412847593" duration="4840000" />
       <workItem from="1620843865761" duration="34000" />
-      <workItem from="1623257240251" duration="8642000" />
+      <workItem from="1623257240251" duration="19847000" />
+      <workItem from="1623395296788" duration="2974000" />
     </task>
     <servers />
   </component>
@@ -81,6 +97,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="998" y="315" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623258048866">
@@ -103,9 +120,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1623265920264" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1623266164456">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1623398192786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1623266164456" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1623398192786" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1623335919371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1623335919371" />
   </component>
 </project>
