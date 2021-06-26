@@ -20,18 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a252d37-0603-4c69-9002-e2b0d1d588d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/autocontent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autosave.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/autorefresh.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/autosave.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/checksearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/loadcontent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check/checktext.php" beforeDir="false" afterPath="$PROJECT_DIR$/check/checktext.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +69,7 @@
       <workItem from="1620412847593" duration="4840000" />
       <workItem from="1620843865761" duration="34000" />
       <workItem from="1623257240251" duration="19847000" />
-      <workItem from="1623395296788" duration="2974000" />
+      <workItem from="1623395296788" duration="3914000" />
     </task>
     <servers />
   </component>
